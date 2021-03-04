@@ -1,3 +1,9 @@
+/*
+* Copyright (c) 2021 SailPoint Technologies, Inc.
+*
+* SPDX-License-Identifier: Apache-2.0
+*/
+
 const AWS = require('aws-sdk');
 const util = require('util');
 
