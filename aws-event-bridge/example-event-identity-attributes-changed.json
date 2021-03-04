@@ -1,0 +1,27 @@
+{
+    "version": "0",
+    "id": "41805c90-9744-b393-f101-02a257511062",
+    "detail-type": "idn:identity-attributes-changed",
+    "source": "aws.partner/sailpoint.com/54d68478-7e9b-46f5-ae82-89a5055df5f2/idn/identity-attributes-changed",
+    "account": "966369550004",
+    "time": "2021-03-01T14:47:25Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "identity": {
+            "id": "2c91808473bafd7e0173be54efcf2fab",
+            "name": "rufus",
+            "type": "IDENTITY"
+        },
+        "changes": [{
+            "attribute": "department",
+            "oldValue": "History",
+            "newValue": "Music"
+        }],
+        "_metadata": {
+            "triggerType": "fireAndForget",
+            "invocationId": "08f74ca8-f7b3-4115-8d59-1ff340a8e4b7",
+            "triggerId": "idn:identity-attributes-changed"
+        }
+    }
+}
