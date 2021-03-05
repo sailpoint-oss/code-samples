@@ -4,7 +4,6 @@
 * SPDX-License-Identifier: Apache-2.0
 */
 
-/*jshint -W069 */
 
 // import modules
 const http = require("https");
@@ -127,13 +126,6 @@ function activate_cert_campaign( campaignId ) {
     });
 }
 
-// Sleep timeout
-function sleep(ms) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
-}
-
 exports.handler = async (event) => {
 
     // Our initial response
@@ -169,9 +161,6 @@ exports.handler = async (event) => {
             let campaignId = _call2["id"];
             console.log("campaignId: " + campaignId );
 
-            // Hack we need to sleep here before we can activate.
-            await sleep( 2000 );
-
             let _call3 = await activate_cert_campaign( campaignId );
 
             if( _call3["status"] == "ok" ) {
@@ -190,3 +179,4 @@ exports.handler = async (event) => {
 
     return response;
 };
+

@@ -1,10 +1,10 @@
 {
     "version": "0",
-    "id": "41805c90-9744-b393-f101-02a257511062",
+    "id": "845cff81-a7b7-c77f-e565-170b7d985cad",
     "detail-type": "idn:identity-attributes-changed",
-    "source": "aws.partner/sailpoint.com/54d68478-7e9b-46f5-ae82-89a5055df5f2/idn/identity-attributes-changed",
+    "source": "aws.partner/sailpoint.com/dedcb0fa-8395-46d9-a062-103962dc5502/idn/identity-attributes-changed",
     "account": "966369550004",
-    "time": "2021-03-01T14:47:25Z",
+    "time": "2021-03-03T22:50:56Z",
     "region": "us-east-1",
     "resources": [],
     "detail": {
@@ -15,12 +15,12 @@
         },
         "changes": [{
             "attribute": "department",
-            "oldValue": "History",
-            "newValue": "Music"
+            "oldValue": "Music",
+            "newValue": "History"
         }],
         "_metadata": {
             "triggerType": "fireAndForget",
-            "invocationId": "08f74ca8-f7b3-4115-8d59-1ff340a8e4b7",
+            "invocationId": "e19c4c39-3b2c-4b47-829a-2f3a4f528ee0",
             "triggerId": "idn:identity-attributes-changed"
         }
     }

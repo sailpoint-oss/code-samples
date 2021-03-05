@@ -1,1 +1,36 @@
-{}
+{
+    "version": "0",
+    "id": "d7e6034f-bbce-9802-d0d0-0bd7142fc578",
+    "detail-type": "idn:aggregation-accounts-collected",
+    "source": "aws.partner/sailpoint.com/51c12cb6-aeed-4678-bc25-81de2e3f58ac/idn/aggregation-accounts-collected",
+    "account": "966369550004",
+    "time": "2021-03-03T22:34:06Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "source": {
+            "type": "SOURCE",
+            "id": "2c9180835d191a86015d27b0a2c31334",
+            "name": "PRISM"
+        },
+        "status": "Error",
+        "started": "2021-03-03T22:33:25.362Z",
+        "completed": "2021-03-03T22:34:03.386Z",
+        "errors": [
+            "Failure trying to get a pooled connection to [jdbc:mysql://172.16.52.48:3306/prism?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server."
+        ],
+        "warnings": [],
+        "stats": {
+            "scanned": 0,
+            "unchanged": 0,
+            "changed": 0,
+            "added": 0,
+            "removed": 0
+        },
+        "_metadata": {
+            "triggerType": "fireAndForget",
+            "triggerId": "idn:aggregation-accounts-collected",
+            "invocationId": "5398b1b8-5928-43d7-9371-43e40a8e01e6"
+        }
+    }
+}
